@@ -657,14 +657,17 @@ footer .container {
   background-color: rgba(33, 150, 243, 0.9);
   opacity: 0;
 }
-.works-item a:hover {
+.works-item a:hover,
+.works-item a:focus {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
   border-radius: 5px 5px 0px 0px;
 }
-.works-item a:hover .item-description::before {
+.works-item a:hover .item-description::before,
+.works-item a:focus .item-description::before {
   opacity: 1;
 }
-.works-item a:hover .item-description {
+.works-item a:hover .item-description,
+.works-item a:focus .item-description {
   top: 0;
   opacity: 1;
 }
