@@ -586,6 +586,10 @@ footer .container {
   width: 370px;
   margin: 15px;
 }
+.works-item:hover,
+.works-item:focus {
+  transform: scale(1.01);
+}
 .our-works .item-link {
   display: block;
   text-decoration: none;
